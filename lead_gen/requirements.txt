@@ -1,0 +1,12 @@
+# lead_gen dependencies
+# Install with: pip install -r lead_gen/requirements.txt
+
+# HTTP requests — used by news_monitor.py to fetch Google News RSS feeds
+requests>=2.31.0
+
+# HTML parsing — used by tender_scraper.py if you add live scraping later
+beautifulsoup4>=4.12.0
+lxml>=5.0.0          # faster XML/HTML parser backend for BeautifulSoup
+
+# All other functionality uses Python standard library only:
+#   csv, imaplib, email, xml.etree.ElementTree, re, uuid, argparse, urllib, pathlib
